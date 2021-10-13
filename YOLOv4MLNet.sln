@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YOLOv4MLNet", "YOLOv4MLNet\YOLOv4MLNet.csproj", "{EB62C663-D170-407F-91B0-9650159ED1B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab1MainBlock", "Lab1MainBlock\Lab1MainBlock.csproj", "{8426305E-D48C-43C0-8670-6E43C3173BFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabMainBlock", "LabMainBlock\LabMainBlock.csproj", "{A028419C-0535-469A-9D60-343DA535D267}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EB62C663-D170-407F-91B0-9650159ED1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB62C663-D170-407F-91B0-9650159ED1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB62C663-D170-407F-91B0-9650159ED1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB62C663-D170-407F-91B0-9650159ED1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8426305E-D48C-43C0-8670-6E43C3173BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8426305E-D48C-43C0-8670-6E43C3173BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8426305E-D48C-43C0-8670-6E43C3173BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8426305E-D48C-43C0-8670-6E43C3173BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A028419C-0535-469A-9D60-343DA535D267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A028419C-0535-469A-9D60-343DA535D267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A028419C-0535-469A-9D60-343DA535D267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A028419C-0535-469A-9D60-343DA535D267}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
