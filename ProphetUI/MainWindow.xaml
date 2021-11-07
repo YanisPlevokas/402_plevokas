@@ -1,0 +1,39 @@
+﻿<Window x:Class="ProphetUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProphetUI"
+        mc:Ignorable="d"
+        Title="Prophet" Height="720" Width="1280">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150 px" />
+            <ColumnDefinition Width="200 px" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <StackPanel HorizontalAlignment="Center"  DockPanel.Dock="Top" MinHeight="40" Grid.Column="0">
+            <Button Name="btnOpenFile" Click="ButtonOpenDirectory" Margin="5" Padding="5" Content="Choose directory"/>
+            <Button Name="btnStartForecast" Click="ButtonStartForecast" Margin="5" Padding="5" Content="Start forecast"/>
+            <Button Name="btnStopForecast" Click="ButtonStopForecast" Margin="5" Padding="5" Content="Stop"/>
+            <TextBlock Margin="5" Padding="5" FontWeight="Normal"  Text="Directory to process:"/>
+            <TextBlock Margin="5" Padding="5" TextWrapping="Wrap" Text="{Binding Path=InputPath}"/>
+            <TextBlock Margin="5" Padding="5" FontWeight="Normal" Text="State:"/>
+            <TextBlock Margin="5" Padding="5" TextWrapping="Wrap" Text="{Binding Path=ProcessingState}"/>
+        </StackPanel>
+        <ListBox Name="listBox_Classes" Grid.Column="1" ItemsSource="{Binding Path=objectClasses}"/>
+
+        <ListView Name="listView_Objects" Grid.Column="2"  Margin="5" ItemsSource="{Binding ElementName=listBox_Classes, Path=SelectedItem}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="3"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Image Height="150" Width="150" Source="{Binding Path=Image}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Window>

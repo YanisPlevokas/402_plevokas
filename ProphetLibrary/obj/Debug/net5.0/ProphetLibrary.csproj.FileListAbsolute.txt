@@ -1,0 +1,13 @@
+C:\Users\white\source\repos\BeatifulLaba\ProphetLibrary\bin\Debug\net5.0\onnxruntime_providers_shared.dll
+C:\Users\white\source\repos\BeatifulLaba\ProphetLibrary\bin\Debug\net5.0\ProphetLibrary.deps.json
+C:\Users\white\source\repos\BeatifulLaba\ProphetLibrary\bin\Debug\net5.0\ProphetLibrary.dll
+C:\Users\white\source\repos\BeatifulLaba\ProphetLibrary\bin\Debug\net5.0\ref\ProphetLibrary.dll
+C:\Users\white\source\repos\BeatifulLaba\ProphetLibrary\bin\Debug\net5.0\ProphetLibrary.pdb
+C:\Users\white\source\repos\BeatifulLaba\ProphetLibrary\obj\Debug\net5.0\ProphetLibrary.csproj.AssemblyReference.cache
+C:\Users\white\source\repos\BeatifulLaba\ProphetLibrary\obj\Debug\net5.0\ProphetLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\white\source\repos\BeatifulLaba\ProphetLibrary\obj\Debug\net5.0\ProphetLibrary.AssemblyInfoInputs.cache
+C:\Users\white\source\repos\BeatifulLaba\ProphetLibrary\obj\Debug\net5.0\ProphetLibrary.AssemblyInfo.cs
+C:\Users\white\source\repos\BeatifulLaba\ProphetLibrary\obj\Debug\net5.0\ProphetLibrary.csproj.CoreCompileInputs.cache
+C:\Users\white\source\repos\BeatifulLaba\ProphetLibrary\obj\Debug\net5.0\ProphetLibrary.dll
+C:\Users\white\source\repos\BeatifulLaba\ProphetLibrary\obj\Debug\net5.0\ref\ProphetLibrary.dll
+C:\Users\white\source\repos\BeatifulLaba\ProphetLibrary\obj\Debug\net5.0\ProphetLibrary.pdb

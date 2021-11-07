@@ -1,0 +1,2 @@
+C:\Users\white\source\repos\BeatifulLaba\BeatifulLaba\obj\Debug\BeatifulLaba.csproj.AssemblyReference.cache
+C:\Users\white\source\repos\BeatifulLaba\BeatifulLaba\obj\Debug\BeatifulLaba.csproj.CoreCompileInputs.cache
